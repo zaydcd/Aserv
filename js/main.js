@@ -177,6 +177,7 @@ function initForms() {
         ? document.querySelector(`#service option[value="${service}"]`)
             ?.textContent || service
         : "не выбрана";
+        alert('email '+email)
       const emailBody = `
 Новая заявка на ремонт автомобиля!
 
