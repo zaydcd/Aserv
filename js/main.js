@@ -218,7 +218,7 @@ ${comment || "без комментария"}
         `Заявка на ремонт от ${name} (${date})`,
       );
       const body = encodeURIComponent(emailBody);
-      window.location.href = `mailto:fackhiev88.mail.ru?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:fackhiev88@mail.ru?subject=${subject}&body=${body}`;
 
       showNotification(
         "✅ Заявка отправлена! Если откроется почтовый клиент для подтверждения.",
@@ -261,7 +261,7 @@ ${message}
 
       const subject = encodeURIComponent(`Сообщение от ${name}`);
       const body = encodeURIComponent(emailBody);
-      window.location.href = `mailto:fackhiev88.mail.ru?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:fackhiev88@mail.ru?subject=${subject}&body=${body}`;
 
       showNotification("✅ Сообщение отправлено! Если откроется почтовый клиент.");
     });
@@ -302,7 +302,7 @@ ${message}
 
       const subject = encodeURIComponent(`Быстрая запись от ${name}`);
       const body = encodeURIComponent(emailBody);
-      window.location.href = `mailto:fackhiev88.mail.ru?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:fackhiev88@mail.ru?subject=${subject}&body=${body}`;
 
       showNotification("✅ Запись отправлена! Если откроется почтовый клиент.");
     });
